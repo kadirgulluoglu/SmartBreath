@@ -448,6 +448,9 @@ class _MapScreenState extends State<MapScreen> {
                                 darkmod = true;
                                 themeGooglemaps();
                               }
+                              else{
+                                darkmod=false;
+                              }
                             });
                           },
                           markers: Set<Marker>.of(markers.values),
