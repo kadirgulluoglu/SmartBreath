@@ -16,7 +16,7 @@
 
 **First you register and login**
 
-<img src="https://github.com/kadirgulluoglu/SmartBreath/blob/main/assets/screenshots/home1.png" width=20% height=20%>
+<img src="https://github.com/kadirgulluoglu/SmartBreath/blob/main/assets/screenshots/home.png" width=20% height=20%>
 
 **After successfully login, the homepage will come up. Data from esp32 is displayed on the main page.**
 
