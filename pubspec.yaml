@@ -1,0 +1,90 @@
+name: smartbreath
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # firebase
+  firebase_auth: ^3.3.17
+  cloud_firestore: ^3.1.14
+  firebase_storage: ^10.2.15
+
+
+  # bluetooth
+  flutter_blue: ^0.8.0
+
+
+  # notification
+  flutter_local_notifications: ^9.5.3+1
+
+  # image
+  image_picker: ^0.8.5+3
+  image_cropper:
+  path_provider: ^2.0.9
+
+  # cache
+  shared_preferences: ^2.0.13
+
+
+  # location & maps
+  google_maps_flutter: ^2.1.4
+  geolocator: ^8.2.0
+  latlong2:
+  search_map_location: ^0.0.5
+  flutter_polyline_points: ^1.0.0
+
+
+  # ui
+  syncfusion_flutter_sliders: ^20.1.52
+  flutter_native_splash: ^2.1.6
+  flutter_switch: ^0.3.2
+  animated_toggle_switch: ^0.2.3
+  lottie: ^1.3.0
+  fluttertoast: ^8.0.9
+  google_nav_bar: ^5.0.6
+  share_files_and_screenshot_widgets: ^1.0.6
+  flutter_rating_bar: ^4.0.0
+  circular_menu: ^1.2.3
+
+
+  # localization
+  easy_localization: ^3.0.0
+
+
+  # state management
+  provider: ^6.0.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  background_image: "assets/image/splash_screen.png"
+  android: true
+  ios: true
+  fullscreen: true
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+  - assets/image/
+  - assets/locales/
+  - assets/locales/en.json
+  - assets/locales/tr.json
+
+  fonts:
+    - family: Bangers
+      fonts:
+        - asset: assets/fonts/Bangers-Regular.ttf
